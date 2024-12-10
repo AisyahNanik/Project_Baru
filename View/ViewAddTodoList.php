@@ -6,7 +6,7 @@ require_once __DIR__ . "/../BusinessLogic/AddTodoList.php";
 
 function viewAddTodoList()
 {
-    echo "MENAHAN TODO" . PHP_EOL;
+    echo "MENAMBAN TODO" . PHP_EOL;
 
     $todo = input("Todo (x untuk batal)");
 
