@@ -5,6 +5,7 @@
  */
 function addTodoList(string $todo)
 {
+    //model
     global $todoList;
 
     $number = sizeof($todoList) + 1;

@@ -6,7 +6,11 @@ require_once "../BusinessLogic/AddTodoList.php";
 addTodoList("Belajar PHP");
 addTodoList("Belajar MySql");
 addTodoList("Belajar Laravel");
-
+ 
 var_dump($todoList);
 
+
+if (count($todoList) == 3) {
+    echo 'OK, program bisa berjalan';
+}
 ?>
