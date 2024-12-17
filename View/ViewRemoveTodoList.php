@@ -15,7 +15,7 @@ function viewRemoveTodoList()
         $success = removeTodoList($pilihan);
 
         if ($success) {
-            echo "Sukse menghapus todo nomor $pilihan" . PHP_EOL;
+            echo "Sukses menghapus todo nomor $pilihan" . PHP_EOL;
         } else {
             echo "Gagal menghapus todo nomor $pilihan" . PHP_EOL;
         }
